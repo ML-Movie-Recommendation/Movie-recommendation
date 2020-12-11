@@ -7,5 +7,5 @@ class UserRating(object):
 
     def get_user_watched_ids(self, user_id):
         """用户看过的电影ID列表"""
-        """List of movie IDs the user has watched""""
+        """List of movie IDs the user has watched"""
         return set(self.df[self.df["userId"] == int(user_id)]["movieId"])
