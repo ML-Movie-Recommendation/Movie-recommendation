@@ -25,3 +25,7 @@ movie_info.py：
 user_rating.py：
 
   List of movie IDs that the user has watched
+
+Problems to be solved (try to solve) :
+1. how to add new users (cold start)?
+2. redo a new movie recommendation system (Django+MySQL)
